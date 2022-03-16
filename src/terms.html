@@ -6,23 +6,225 @@
         </title>
         <link rel="stylesheet" href="navbar.css">
         <script src="https://kit.fontawesome.com/657d0752d9.js" crossorigin="anonymous"></script>
+        <style>
+
+
+body{           
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    max-width:80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    border-radius: 0% 18% 0% 10%;
+    box-shadow: 0px 0px 3px #666262;;
+    margin-bottom: 5px;
+    margin-top:1px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10px
+}
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    max-height:100%;
+    flex:20%;  
+}
+
+.main{
+    flex:80%;
+    border-radius: 0% 21% 0% 10%;
+    box-shadow: 0px 0px 8px #666262;
+    font-family:Helvetica;
+}
+
+.main .container{
+    margin-top:40px;
+    max-width:90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.main h1{
+    font-size:40px;
+    margin-bottom:10px;
+    margin-top:10px
+}
+
+.main p{
+    line-height:1.5;
+    color:rgb(90, 83, 83);
+    margin-bottom: 30px;
+    font-size:15px
+}
+
+.main h3{
+    margin-bottom:10px
+}
+
+.main .button{
+    background-color:blue;
+    color:white;
+    padding:15px 30px 15px 30px;
+    margin-left:35px;
+    font-family: Helvetica;
+}
+
+ul{
+    list-style-type:none;
+    color:black;
+    list-style: none; 
+}
+
+.icons li{
+    padding-bottom:30px;
+}
+
+.icons li a{
+    background-color:blue;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px
+}
+
+.icons i{
+    color:white
+}
+.fa-facebook-f{
+    border-radius:30px;
+    font-size:20px;  
+}
+
+.logo{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right:auto; 
+    margin-top:10px;
+    font-size:20px;
+    margin-bottom:15px
+}
+
+.logo p {
+    font-weight: bold;
+    font-size:30px;
+    padding-top:30px
+}
+
+.logo a{
+    color:black;
+    font-family:Helvetica
+}
+
+
+
+.icons{
+    margin-bottom:20%
+}
+
+.list li{
+    padding-bottom:30px
+}
+
+.list a{
+    color:black;
+    font-weight: bold;
+    font-family:Helvetica;
+    padding:6px 25px;
+}
+
+.list a:hover{
+    background-color: rgb(187, 41, 163);
+    color:white;
+    border-radius:30px;   
+}
+
+.icons a:hover{
+    background:lightblue
+}
+ 
+a{
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-left:0px;
+    margin-top:40px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width:300px;
+    font-size: 16px;
+    padding-top:20px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px #666262;
+    margin-left:40px;
+    padding-bottom:20px
+}
+
+.grid1,.grid2{
+    margin-bottom:40px
+}
+
+.grid3,.grid4{
+    margin-bottom:10px
+}
+
+.grid-item h3{
+    margin-bottom:5px;
+    font-size: 18px;
+    font-family:Helvetica;
+    padding-top:20px;
+
+}
+.grid-item p{
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size: 13px;
+    line-height:1.4;
+    font-family:Helvetica;
+    margin-bottom:10px
+}
+
+.icon i{
+    padding:13px;
+    border-radius:10px;
+    box-shadow: 5px 6px 15px #666262;
+}
+        </style>
     </head>
     <body>
          <main>
 
             <nav>
                 <div class="logo">
-                    <img src="images/logo.png" alt="codedrill image">
-                </div>
-                <div class="list">
-                    <ul>
-                        <li><i class="fa-solid fa-house"></i> <a href="#about">Home</a></li>
-                        <li> <a href="#about">About</a></li>
-                        <li> <a href="#about">Services</a></li>
-                        <li> <a href="#about">Projects</a></li>
-                        <li> <a href="#about">Terms & <br> Condition</a></li>
-                    </ul>
-                </div>
+                    <p><a href="http://localhost:5050/">Codedrill</a></p>
+                 </div>
+                 <div class="list">
+                     <ul>
+                         <li><a href="http://localhost:5050/home">Home</a></li>
+                         <li> <a href="http://localhost:5050/about">About</a></li>
+                         <li> <a href="http://localhost:5050/">Services</a></li>
+                         <li> <a href="http://localhost:5050/">Projects</a></li>
+                         <li> <a href="http://localhost:5050/terms">Terms</a></li>
+                     </ul>
+                 </div>
                 <div class="icons">
                     <ul>
                         <li><a href="#call">
@@ -43,59 +245,59 @@
 
              <div class="main">
                 <div class="container">
-                 <h1>Terms & Conditions</h1>
-                 <p>
-                    This Website is provided by Codedrill Infotech. By using the Website, You hereby agree to abide 
-                    by the terms and conditions set forth in this Terms of Use. In the event of You not agreeing to 
-                    these terms and conditions, You are requested by Codedrill Infotech not to use the Website.
-                    This Website, including all Materials present (excluding any applicable third party materials), 
-                    is the property of Codedrill Infotech and is copyrighted and protected by worldwide copyright 
-                    laws and treaty provisions. You hereby agree to comply with all copyright laws worldwide in Your 
-                    use of this Website and to prevent any unauthorized copying of the Materials. Codedrill Infotech 
-                    does not grant any express or implied rights under any patents, trademarks, copyrights or trade 
-                    secret information.
-                    Codedrill Infotech has business relationships with thousands of customers. For convenience and 
-                    simplicity, words like joint venture, partnership, and partner are used to indicate business 
-                    relationships involving common activities and interests, and those words may not indicate precise 
-                    legal relationships.
-                 </p>
-                 <h3>Limited License:</h3>
-                 <p>
-                    Subject to the terms and conditions set forth in these Terms of Use, Codedrill Infotech 
-                    grants You a non-exclusive, non-transferable, limited right to access, use and display 
-                    this Website and the Materials thereon. You agree not to interrupt or attempt to interrupt 
-                    the operation of the Website in any manner. Unless otherwise specified, the Website is for 
-                    Your personal and non-commercial use. You shall not modify, copy, distribute, transmit, display, 
-                    perform, reproduce, publish, license, create derivative works from, transfer, or sell any 
-                    information, software, products or services obtained from this Website.
-                 </p>
-                 <h3>No Warranties:</h3>
-                 <p>
-                    This website, the information and materials on the site, and any software made available on 
-                    the Website, are provided "as is" without any representation or warranty, express or implied, 
-                    of any kind, including, but not limited to, warranties of merchantability, non-infringement, 
-                    or fitness for any particular purpose. There is no warranty of any kind, express or implied, 
-                    regarding third party content. In spite of Codedrill Infotech best endeavors, there is no 
-                    warranty on behalf of Codedrill Infotech that this Website will be free of any computer viruses. 
-                    Some jurisdictions do not allow for the exclusion of implied warranties, so the above exclusions 
-                    may not apply to you.
-                 </p>
-                 <h3>Disclaimer:</h3>
-                 <p>
-                    The website may contain inaccuracies and typographical and clerical errors. Codedrill Infotech 
-                    expressly disclaims any obligation(s) to update this website or any of the materials on this 
-                    website. Codedrill Infotech does not warrant the accuracy or completeness of the materials or 
-                    the reliability of any advice, opinion, statement or other information displayed or distributed 
-                    through the Website. You acknowledge that any reliance on any such opinion, advice, statement, 
-                    memorandum, or information shall be at your sole risk. Codedrill Infotech reserves the right, 
-                    in its sole discretion, to correct any errors or omissions in any portion of the Website. Codedrill 
-                    Infotech may make any other changes to the Website, the materials and the products, programs, 
-                    services or prices (if any) described in the Website at any time without notice. This Website 
-                    is for informational purposes only and should not be construed as technical advice of any manner.
-                 </p>
+                    <h1>Terms & Conditions</h1>
+                    <p>
+                       This Website is provided by Codedrill Infotech. By using the Website, You hereby agree to abide 
+                       by the terms and conditions set forth in this Terms of Use. In the event of You not agreeing to 
+                       these terms and conditions, You are requested by Codedrill Infotech not to use the Website.
+                       This Website, including all Materials present (excluding any applicable third party materials), 
+                       is the property of Codedrill Infotech and is copyrighted and protected by worldwide copyright 
+                       laws and treaty provisions. You hereby agree to comply with all copyright laws worldwide in Your 
+                       use of this Website and to prevent any unauthorized copying of the Materials. Codedrill Infotech 
+                       does not grant any express or implied rights under any patents, trademarks, copyrights or trade 
+                       secret information.
+                       Codedrill Infotech has business relationships with thousands of customers. For convenience and 
+                       simplicity, words like joint venture, partnership, and partner are used to indicate business 
+                       relationships involving common activities and interests, and those words may not indicate precise 
+                       legal relationships.
+                    </p>
+                    <h3>Limited License:</h3>
+                    <p>
+                       Subject to the terms and conditions set forth in these Terms of Use, Codedrill Infotech 
+                       grants You a non-exclusive, non-transferable, limited right to access, use and display 
+                       this Website and the Materials thereon. You agree not to interrupt or attempt to interrupt 
+                       the operation of the Website in any manner. Unless otherwise specified, the Website is for 
+                       Your personal and non-commercial use. You shall not modify, copy, distribute, transmit, display, 
+                       perform, reproduce, publish, license, create derivative works from, transfer, or sell any 
+                       information, software, products or services obtained from this Website.
+                    </p>
+                    <h3>No Warranties:</h3>
+                    <p>
+                       This website, the information and materials on the site, and any software made available on 
+                       the Website, are provided "as is" without any representation or warranty, express or implied, 
+                       of any kind, including, but not limited to, warranties of merchantability, non-infringement, 
+                       or fitness for any particular purpose. There is no warranty of any kind, express or implied, 
+                       regarding third party content. In spite of Codedrill Infotech best endeavors, there is no 
+                       warranty on behalf of Codedrill Infotech that this Website will be free of any computer viruses. 
+                       Some jurisdictions do not allow for the exclusion of implied warranties, so the above exclusions 
+                       may not apply to you.
+                    </p>
+                    <h3>Disclaimer:</h3>
+                    <p>
+                       The website may contain inaccuracies and typographical and clerical errors. Codedrill Infotech 
+                       expressly disclaims any obligation(s) to update this website or any of the materials on this 
+                       website. Codedrill Infotech does not warrant the accuracy or completeness of the materials or 
+                       the reliability of any advice, opinion, statement or other information displayed or distributed 
+                       through the Website. You acknowledge that any reliance on any such opinion, advice, statement, 
+                       memorandum, or information shall be at your sole risk. Codedrill Infotech reserves the right, 
+                       in its sole discretion, to correct any errors or omissions in any portion of the Website. Codedrill 
+                       Infotech may make any other changes to the Website, the materials and the products, programs, 
+                       services or prices (if any) described in the Website at any time without notice. This Website 
+                       is for informational purposes only and should not be construed as technical advice of any manner.
+                    </p>
+
                 </div>
              </div>
-
          </main>
     </body>
-</html>
+</html>       

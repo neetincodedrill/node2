@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           404 file
+        </title>
+        <style>
+           body{
+             
+               padding:0;
+               margin:0;
+               box-sizing: border-box;
+               max-width:80%;
+               margin-left: auto;
+               margin-right:auto;
+           }
+         
+       
+             nav{
+                 display:flex;
+                 flex-wrap: wrap;
+                 flex-direction:row;
+                 justify-content: space-between;
+                 align-items: center;
+                 font-family: Helvetica;
+                 max-width:95%;
+               margin-left: auto;
+               margin-right:auto;
+             }
+             ul{
+                 display:flex;
+                 flex-direction: row;
+             }
+
+             ul li{
+                 padding-right:40px;               
+                 list-style-type: none;
+             }
+
+             ul li a:hover{
+                 color:white;
+                 background-color:black;
+                 border-radius:30px;            
+              }
+             
+             ul li a{
+                 color:black;
+                 text-decoration: none;
+                 padding:6px 18px;
+                 font-weight:600
+             }
+
+             .logo{
+                 font-size:25px;           
+             }
+             .error-content h1{
+                 font-size:280px;
+                 max-width:400px;
+                 line-height:55px;
+                margin-bottom:100px;
+                margin-top: 180px;
+                font-family: Helvetica;
+             }
+             .something{
+                 font-size:60px;
+                 margin-bottom: 0px;
+                 font-family: Helvetica;
+             }
+             .wrong{
+                 font-size:60px;
+                 font-weight: bold;
+                 margin-top: 0px;
+                 margin-bottom: 50px;
+                 font-family: Helvetica;
+             }
+             .homepage-button{
+                 background-color:#138241;
+                 text-decoration: none;
+                 color: white;
+                 padding: 18px 30px;
+                 border-radius:30px;
+                 font-size:18px;
+                 font-family: Helvetica;
+             }
+
+             .logo a{
+                 text-decoration: none;
+                 color:black
+             }
+
+         
+          
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                      <h1><a href="http://localhost:5050/">Codedrill</a></h1>
+                    </div>
+                    <div class="nav-right">
+                      <ul>
+                          <li><a href="http://localhost:5050/home">Home</a></li>
+                          <li><a href="http://localhost:5050/about">About</a></li>
+                          <li><a href="http://localhost:5050/">Projects</a></li>
+                          <li><a href="http://localhost:5050/terms">Terms</a></li>
+                      </ul>
+                    </div>
+                </nav>
+            </div>       
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="error-content">
+                  <h1>404</h1>
+                  <p class="something">Something went</p>
+                    <p class="wrong">WRONG!</p>
+                  <a class="homepage-button" href="http://localhost:5050/">Back to Homepage</a>
+                </div>
+            </div>
+        </main>
+
+    </body>
+</html>

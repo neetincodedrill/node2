@@ -2,97 +2,254 @@
 <html>
     <head>
         <title>
-            About Page
+            Home Page
         </title>
-        <link rel="stylesheet" href="navbar.css">
+      
         <script src="https://kit.fontawesome.com/657d0752d9.js" crossorigin="anonymous"></script>
+        <style>
+
+
+body{           
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    max-width:80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    border-radius: 0% 20% 0% 10%;
+    box-shadow: 0px 0px 3px #666262;;
+    margin-bottom: 5px;
+    margin-top:1px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10px
+}
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    max-height:100%;
+    flex:20%;  
+}
+
+.main{
+    flex:80%;
+    border-radius: 0% 22.4% 0% 10%;
+    box-shadow: 0px 0px 8px #666262;
+    font-family:Helvetica   
+}
+
+.main .container{
+    margin-top:40px;
+    max-width:90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.main h1{
+    font-size:40px;
+    margin-bottom:30px;
+    margin-top:10px;
+    margin-left:30px
+}
+
+.main h3{
+    margin-left:30px;
+    font-size:20px
+}
+
+.main p{
+    line-height:1.5;
+    color:rgb(90, 83, 83);
+    margin-bottom: 15px;
+    margin-left:30px;
+    font-size:15px
+}
+
+.main h5{
+   margin-left: 30px;;
+   font-size:21px;
+   margin-bottom:0px;
+   margin-top:0px
+   
+}
+
+ul{
+    list-style-type:none;
+    color:black;
+    list-style: none; 
+}
+
+.icons li{
+    padding-bottom:30px;
+}
+
+.icons li a{
+    background-color:blue;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px
+}
+
+.icons i{
+    color:white
+}
+.fa-facebook-f{
+    border-radius:30px;
+    font-size:20px;  
+}
+
+.logo{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right:auto; 
+    margin-top:10px;
+    font-size:20px;
+    margin-bottom:15px
+}
+
+.logo p {
+    font-weight: bold;
+    font-size:30px;
+    padding-top:30px
+}
+
+.logo a{
+    color:black;
+    font-family:Helvetica
+}
+
+.list{
+   margin-left:10px
+}
+
+
+.list li{
+    padding-bottom:30px
+}
+
+.list a{
+    color:black;
+    font-weight: bold;
+    font-family:Helvetica;
+    padding:6px 25px;
+}
+
+.list a:hover{
+    background-color: rgb(187, 41, 163);
+    color:white;
+    border-radius:30px;   
+}
+
+.icons a:hover{
+    background:lightblue
+}
+ 
+a{
+    text-decoration: none;
+}
+
+        </style>
     </head>
     <body>
          <main>
-                <nav>
-                  <div class="logo">
-                      <img src="images/logo.png" alt="codedrill image">
-                  </div>
-                  <div class="list">
-                      <ul>
-                          <li><i class="fa-solid fa-house"></i> <a href="#about">Home</a></li>
-                          <li> <a href="#about">About</a></li>
-                          <li> <a href="#about">Services</a></li>
-                          <li> <a href="#about">Projects</a></li>
-                          <li> <a href="#about">Terms & <br> Condition</a></li>
-                      </ul>
-                  </div>
-                  <div class="icons">
-                      <ul>
-                          <li><a href="#call">
-                              <i class="fa-solid fa-phone center"></i>
-                          </a></li>
-                          <li><a href="#call">
-                              <i class="fa-brands fa-facebook-f center"></i>
-                          </a></li>
-                          <li><a href="#call">
-                              <i class="fa-brands fa-twitter center"></i>
-                          </a></li>
-                          <li><a href="#call">
-                              <i class="fa-brands fa-linkedin-in center"></i>
-                          </a></li>
-                      </ul>
-                  </div>                  
-                </nav>
-                <div class="main">  
-                    <div class="container">
-                        <h1>About us</h1>
-                        <h3>What we do</h3>
-                        <p>We have your needs in mind. We provide superlative solutions 
-                           to our clients problems that are as discerning as agreeable to use..</p>
-                        <p>
-                           CodeDrill Infotech Pvt. Ltd. is a dedicated team of developers, designers, 
-                           administrators, and multi-channel marketing specialists that combines 
-                           creativity with the essential technical skills. Our approach is collaborative, 
-                           impressionable, and knowledgeable with the goal of delivering success. 
-                           Having worked across multiple business models, CodeDrill brings with it a 
-                           diverse understanding of client requirements that makes us one of the best 
-                           web development vendors, to create the right fit solutions which are scalable, 
-                           customizable, and adaptable based on unique client requirements. We care, 
-                           we amalgamate, we do great work and we do it with a smile and enthusiasm because 
-                           it's pretty elevated to do what we do.
-                        </p>
-                        <ul>
-                            <li>Successive iterations</li>
-                            <li>Close collaboration with clients</li>
-                            <li>Lowering costs and risks</li>
-                            <li>Minimising waste and maximising value delivered</li>
-                        </ul>
-                        <h3>Why choose Us?</h3>
-                        <p>We care, we amalgamate, we do great work and we do it with a 
-                           smile and enthusiasm because it's pretty elevated to do what we do.</p>
-                       
-                       <h5>Reliable</h5>
-                       <p>
-                           You selected us and we selected success in return. CodeDrill is a team of extremely 
-                           reliable and creative techies. We are committed to providing your business solution 
-                           on time and in an effective manner.
-                       </p>
-                       <h5>Expreience</h5>
-                       <p>
-                           We have mastered providing the best solutions in the market. Our rich experience 
-                           will help in providing an innovative idea and great work for your business.
-                       </p>
-                       <h5>Solutions</h5>
-                       <p>
-                          We have a key of your success. CodeDrill Infotech provides best web solutions for 
-                          your business. We are sincerely committed to provide a to z solution for your project 
-                          while keeping the quality on top.
-                       </p>
-                       <h5>Support</h5>
-                       <p>
-                           We provide a strong base to your business. CodeDrill Infotech is a place where 
-                           you get your work done smartly and effectively. We are always available for our 
-                           clients to provide them our best support.
-                       </p>
-                   </div>   
+
+            <nav>
+                <div class="logo">
+                   <p><a href="http://localhost:5050/">Codedrill</a></p>
                 </div>
-        
+                <div class="list">
+                    <ul>
+                        <li><a href="http://localhost:5050/home">Home</a></li>
+                        <li> <a href="http://localhost:5050/about">About</a></li>
+                        <li> <a href="http://localhost:5050/">Services</a></li>
+                        <li> <a href="http://localhost:5050/">Projects</a></li>
+                        <li> <a href="http://localhost:5050/terms">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><a href="#call">
+                            <i class="fa-solid fa-phone center"></i>
+                        </a></li>
+                        <li><a href="#call">
+                            <i class="fa-brands fa-facebook-f center"></i>
+                        </a></li>
+                        <li><a href="#call">
+                            <i class="fa-brands fa-twitter center"></i>
+                        </a></li>
+                        <li><a href="#call">
+                            <i class="fa-brands fa-linkedin-in center"></i>
+                        </a></li>
+                    </ul>
+                </div>                  
+              </nav>
+
+             <div class="main">
+                <div class="container">
+                    <h1>About us</h1>
+                    <h3>What we do</h3>
+                    <p>We have your needs in mind. We provide superlative solutions 
+                       to our clients problems that are as discerning as agreeable to use..</p>
+                    <p>
+                       CodeDrill Infotech Pvt. Ltd. is a dedicated team of developers, designers, 
+                       administrators, and multi-channel marketing specialists that combines 
+                       creativity with the essential technical skills. Our approach is collaborative, 
+                       impressionable, and knowledgeable with the goal of delivering success. 
+                       Having worked across multiple business models, CodeDrill brings with it a 
+                       diverse understanding of client requirements that makes us one of the best 
+                       web development vendors, to create the right fit solutions which are scalable, 
+                       customizable, and adaptable based on unique client requirements. We care, 
+                       we amalgamate, we do great work and we do it with a smile and enthusiasm because 
+                       it's pretty elevated to do what we do.
+                    </p>
+                    <ul>
+                        <li>Successive iterations</li>
+                        <li>Close collaboration with clients</li>
+                        <li>Lowering costs and risks</li>
+                        <li>Minimising waste and maximising value delivered</li>
+                    </ul>
+                    <h3>Why choose Us?</h3>
+                    <p>We care, we amalgamate, we do great work and we do it with a 
+                       smile and enthusiasm because it's pretty elevated to do what we do.</p>
+                   
+                   <h5>Reliable</h5>
+                   <p>
+                       You selected us and we selected success in return. CodeDrill is a team of extremely 
+                       reliable and creative techies. We are committed to providing your business solution 
+                       on time and in an effective manner.
+                   </p>
+                   <h5>Expreience</h5>
+                   <p>
+                       We have mastered providing the best solutions in the market. Our rich experience 
+                       will help in providing an innovative idea and great work for your business.
+                   </p>
+                   <h5>Solutions</h5>
+                   <p>
+                      We have a key of your success. CodeDrill Infotech provides best web solutions for 
+                      your business. We are sincerely committed to provide a to z solution for your project 
+                      while keeping the quality on top.
+                   </p>
+                   <h5>Support</h5>
+                   <p>
+                       We provide a strong base to your business. CodeDrill Infotech is a place where 
+                       you get your work done smartly and effectively. We are always available for our 
+                       clients to provide them our best support.
+                   </p>
+                    
+                </div>
+             </div>
          </main>
     </body>
 </html>
